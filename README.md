@@ -1,3 +1,4 @@
+EB
 # EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER
 
 ### Aim:
@@ -96,14 +97,27 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
-
-
-
-
+```
+NAME : ALFRED A B
+REGISTER NO : 212222110002
+```
+```
+  HAL_TIM_Base_Start(&htim2);
+  HAL_TIM_PWM_Init(&htim2);
+  HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+```
 
 ## Output screen shots of proteus  :
- 
- 
+## PULSE AT 500:
+![Screenshot 2023-10-13 113538](https://github.com/Alfredsec/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120621608/11eb284e-495a-4004-91d8-25b3a6b15832)
+
+## PULSE AT 700:
+![Screenshot 2023-10-13 114126](https://github.com/Alfredsec/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120621608/ae5161fa-e607-413d-a810-ef0d4f2a420b)
+
+## PULSE AT 900:
+
+![Screenshot 2023-10-13 114538](https://github.com/Alfredsec/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120621608/251a4a89-80c4-47d4-b0fb-48fc588fddb9)
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
 
